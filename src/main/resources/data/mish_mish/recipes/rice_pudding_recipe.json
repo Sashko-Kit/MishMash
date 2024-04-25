@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "mish_mash:cinnamon_powder"
+    },
+    "E": {
+      "item": "mish_mash:rice"
+    },
+    "G": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    " C ",
+    "BEA",
+    " G "
+  ],
+  "result": {
+    "item": "mish_mash:rice_pudding"
+  },
+  "show_notification": true
+}

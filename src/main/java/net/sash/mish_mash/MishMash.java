@@ -46,6 +46,11 @@ public class MishMash
     {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.RICE_PUDDING);
+            event.accept(ModItems.RICE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.CINNAMON);
+            event.accept(ModItems.CINNAMON_POWDER);
         }
     }
 
